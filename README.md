@@ -1,6 +1,6 @@
-# 🛡️ PackageScan – Unified Vulnerability Scanner for Code, Systems & Containers
+# 🛡️ PKG Scanner – Unified Vulnerability Scanner for Code, Systems & Containers
 
-**PackageScan** is a fast, modular security scanner built in Go that helps developers and DevOps teams detect vulnerabilities across:
+**PKG Scanner** is a fast, modular security scanner built in Go that helps developers and DevOps teams detect vulnerabilities across:
 
 - Application dependencies (Go, Node.js, Python, etc.)
 - Hardcoded secrets in source code
@@ -37,8 +37,8 @@ Whether you're building a microservice, maintaining an open-source repo, or depl
 
 ```bash
 # Install from source
-go install github.com/yourusername/packagescan@latest
+go install github.com/imwm-ns/pkg-scanner@latest
 
 # Run a scan
-packagescan scan ./my-project
+pkg-scanner scan ./my-project
 
